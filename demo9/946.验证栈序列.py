@@ -13,5 +13,5 @@ class Solution:
                 lis.pop()
                 n+=1
         return n==len(popped)
-if __name__=="__main__":
+# if __name__=="__main__":
     # print(Solution().validateStackSequences([1, 2, 3, 4, 5], [4, 5, 3, 2, 1]))
