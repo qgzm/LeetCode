@@ -1,5 +1,8 @@
 # 使用者：姜海波
 # 创建时间：2022/9/4  17:49
+from functools import lru_cache
+
+
 class Solution:
     # 缓存机制
     @lru_cache(None)
@@ -7,3 +10,5 @@ class Solution:
         if n <= 1:
             return n
         return min(n % 2 + 1 + self.minDays(n // 2), n % 3 + 1 + self.minDays(n // 3))
+
+Solution().minDays(6)

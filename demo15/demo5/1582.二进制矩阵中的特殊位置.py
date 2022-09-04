@@ -41,7 +41,7 @@ class Solution:
 #                 if x == 1 and rows_sum[i] == 1 and cols_sum[j] == 1:
 #                     res += 1
 #         return res
-a = [[1, 1, 0], [0, 0, 1], [1, 0, 0]]
+a = [[1, 0, 0], [0, 0, 1], [1, 0, 0]]
 print(Solution().numSpecial(a))
 
 
