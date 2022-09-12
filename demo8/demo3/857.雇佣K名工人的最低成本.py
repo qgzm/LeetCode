@@ -20,4 +20,8 @@ class Solution:
             ans = min(ans, w / q * totalq)
             totalq += heappop(h)
         return ans
+m=[10,20,5]
+n=[70,50,30]
 
+l=2
+Solution().mincostToHireWorkers(m,n,l)
