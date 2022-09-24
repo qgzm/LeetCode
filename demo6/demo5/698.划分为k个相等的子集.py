@@ -4,7 +4,7 @@ from functools import cache
 from typing import List
 
 
-# 又因为 nn 满足1≤n≤16，所以我们可以用一个整数 S 来表示当前可用的数字集合：从低位到高位，第 ii 位为 11 则表示数字 \textit{nums}[i]nums[i]
+# 又因为 n 满足1≤n≤16，所以我们可以用一个整数 S 来表示当前可用的数字集合：从低位到高位，第 ii 位为 11 则表示数字 \textit{nums}[i]nums[i]
 # 可以使用，否则表示 nums[i] 已被使用。为了避免相同状态的重复计算，我们用 dp[S] 来表示在可用的数字状态为 SS
 # 的情况下是否可行，初始全部状态为记录为可行状态 True。
 
