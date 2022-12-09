@@ -15,7 +15,7 @@ class Solution:
         factorial = [1]
         for i in range(1, n):
             factorial.append(factorial[-1] * i)
-
+        # 存放阶乘,0!,1!,2!....(n-1)!
         k -= 1
         ans = list()
         valid = [1] * (n + 1)
