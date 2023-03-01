@@ -17,14 +17,12 @@ class Solution:
         # return ans
         if not nums:
             return []
-        pres={(nums[0],)}
+        pres = {(nums[0],)}
         for i in nums[1:]:
-            pres.update({j+(i,) for j in pres if j[-1]<=i})
-            print(pres)
+            pres.update({j + (i,) for j in pres if j[-1] <= i})
             pres.add((i,))
-            print(pres,'ddd')
 
-        return [list(i) for i in pres if len(i)>1]
+        return [list(i) for i in pres if len(i) > 1]
 
 
 print(Solution().findSubsequences([4, 6, 7, 7]))
