@@ -1,1 +1,8 @@
 线性筛(例题,204)
+集合& |  ^(对称差集)
+set.remove(element)    里面没有会报错
+set.discard(element)    没有不报错
+
+
+list   del listname[index]  remove() 方法只会删除第一个和指定值相同的元素，而且必须保证该元素是存在的
+list.clear 删除列表的所有元素
