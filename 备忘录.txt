@@ -16,3 +16,52 @@ bisect(list,target), bisect_left()和bisect_right()->index
 
 python //地板除法,在负数的时候也是如此,所以如果需要向零取整负数的时候,可以int(num1/float(num2))
 float(-1.5)=-1
+
+''.join(str)
+
+Python swapcase() 方法用于对字符串的大小写字母进行转换，即将大写字母转换为小写字母，小写字母会转换为大写字母。
+
+itertools.combinations(a,b:int)
+对a挑选出b个元素进行排列组合
+
+defaultdict是python内建dict类的一个字类，功能与dict相同，但它带有一个默认的值，若key值不存在时返回一个默认的值。
+
+
+ord() 返回ASCII值
+bin() 二进制
+
+/ 返回浮点值
+
+set()   add 和 pop
+
+
+字典遍历是
+for i in dict.key()
+for i in dict.values()
+for key,value in dict.items()
+
+list--> cmp(A,B) function is used to compare the size of two elements
+
+all() 函数用于判断给定的可迭代参数 iterable 中的所有元素是否都为 TRUE，如果是返回 True，否则返回 False。
+元素除了是 0、空、None、False 外都算 True。
+
+
+str.find('x')  return the letter's index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
