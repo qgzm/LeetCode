@@ -48,7 +48,7 @@ all() 函数用于判断给定的可迭代参数 iterable 中的所有元素是�
 
 str.find('x')  return the letter's index
 
-
+math.gcd(i,j)  求最大公约数
 
 
 
