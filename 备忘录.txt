@@ -50,7 +50,20 @@ str.find('x')  return the letter's index
 
 math.gcd(i,j)  求最大公约数
 
+abs()   divmod()->返回商和余数    round()->四舍五入
+hex()   oct()   bin()   bool()  ord()
+all()   any()   map()函数： 通过自定义函数实现对序列的元素映射操作并返回操作后的结果
+format()->格式化数据
+"{} {}".format("hello", "world")
+print("{:.2f}".format(3.1415926));
 
+string.count(str,beg=0,end=len(string))
+string.endswith()
+string.find(str,beg,end)不存在返回-1
+string.index(str,beg,end)不存在会报异常
+string.join(seq)以 string 作为分隔符，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串
+string.strip([obj])
+string.upper()     string.lower()         string.swapcase()
 
 
 
