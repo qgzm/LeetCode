@@ -11,3 +11,6 @@ class Solution:
             for j in range(i + 2, n):
                 f[i][j] = min(f[i][k] + f[k][j] + values[i] * values[k] * values[j] for k in range(i + 1, j))
         return f[0][-1]
+
+
+print(Solution().minScoreTriangulation([1,2,3,4,5]))
