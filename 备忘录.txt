@@ -70,9 +70,9 @@ string.upper()     string.lower()         string.swapcase()
 
 总结一下Counter,里面是按照从大到小的顺序进行排列,但是遍历的时候却不是(哈希原因?,或者是字典序)
 所以可以进行转换排序一下,
-sorted(cnt.items(),lambda x:x[1],reverse=True) 从大到小的顺序进行排列,返回值是元素为元组的列表
+sorted(cnt.items(),key=lambda x:x[1],reverse=True) 从大到小的顺序进行排列,返回值是元素为元组的列表
 [('a',11),('b',2)]这种
-反转了,可以用most_common()
+反转了,可以用most_common()->返回元组列表
 
 染色问题
 邻接表

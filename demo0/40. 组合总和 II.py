@@ -6,27 +6,7 @@ from typing import List
 
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        # def dfs(candidate: List[int], path: List[int], su):
-        #     if su == target:
-        #         res.append(path[:])
-        #         return
-        #     for i in range(len(candidate)):
-        #         path.append(candidate[i])
-        #         dfs(candidate[i + 1:], path, su + candidate[i])
-        #         path.pop()
-        #
-        # res ,ans= [],[]
-        # res1=[]
-        # dfs(candidates, [], 0)
-        # for i in res:
-        #     i=sorted(i)
-        #     res1.append(i)
-        # res1.sort()
-        # ans=[res1[0]]
-        # for i in range(1,len(res1)):
-        #     if ans[-1]!=res1[i]:
-        #         ans.append(res1[i])
-        # return ans
+
         def dfs(pos: int, rest: int):
             nonlocal sequence
             if rest == 0:
