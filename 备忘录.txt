@@ -11,8 +11,8 @@ list.clear 删除列表的所有元素
 
 二分查找法
 bisect(list,target), bisect_left()和bisect_right()->index
-如果列表中没有元素x，那么bisect_left(ls, x)和bisec_right(ls, x)返回相同的值，该值是x在ls中“合适的插入点索引，使得数组有序”
-
+如果列表中没有元素x，那么bisect_left(ls, x)和bisect_right(ls, x)返回相同的值，该值是x在ls中“合适的插入点索引，使得数组有序”
+如果列表中存在多个元素等于x，那么bisect_left(ls, x)返回最左边的那个索引,bisect_right(ls, x)返回最右边的那个索引加1
 
 python //地板除法,在负数的时候也是如此,所以如果需要向零取整负数的时候,可以int(num1/float(num2))
 float(-1.5)=-1

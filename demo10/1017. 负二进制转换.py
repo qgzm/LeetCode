@@ -8,3 +8,4 @@ class Solution:
             res=str(k)+res
         return res if res else '0'
 
+Solution().baseNeg2(3)
