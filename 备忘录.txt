@@ -9,13 +9,13 @@ list.clear 删除列表的所有元素
 
 列表不可哈希,所以用in的时候可以先转换成set再in
 
-二分查找法
+二分查找法import bisect
 bisect(list,target), bisect_left()和bisect_right()->index
 如果列表中没有元素x，那么bisect_left(ls, x)和bisect_right(ls, x)返回相同的值，该值是x在ls中“合适的插入点索引，使得数组有序”
 如果列表中存在多个元素等于x，那么bisect_left(ls, x)返回最左边的那个索引,bisect_right(ls, x)返回最右边的那个索引加1
 
 python //地板除法,在负数的时候也是如此,所以如果需要向零取整负数的时候,可以int(num1/float(num2))
-float(-1.5)=-1
+floor(-1.5)=-1
 
 ''.join(str)
 
@@ -36,7 +36,7 @@ set()   add 和 pop
 
 
 字典遍历是
-for i in dict.key()
+for i in dict.keys()
 for i in dict.values()
 for key,value in dict.items()
 
@@ -66,6 +66,7 @@ string.find(str,beg,end)不存在返回-1
 string.index(str,beg,end)不存在会报异常
 string.join(seq)以 string 作为分隔符，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串
 string.strip([obj])
+
 string.upper()     string.lower()         string.swapcase()
 
 总结一下Counter,里面是按照从大到小的顺序进行排列,但是遍历的时候却不是(哈希原因?,或者是字典序)
@@ -81,7 +82,7 @@ sorted(cnt.items(),key=lambda x:x[1],reverse=True) 从大到小的顺序进行�
 Counter.elements()
 返回一个迭代器，其中每个元素将重复出现计数值所指定次。 元素会按首次出现的顺序返回。 如果一个元素的计数值小于1，elements() 将会忽略它。
 c = Counter(a=4, b=2, c=0, d=-2)
-list(c.elements())
+list(c.elements())7
 ['a', 'a', 'a', 'a', 'b', 'b']
 
 Counter.most_common()
