@@ -1,5 +1,9 @@
 # 使用者：姜海波
 # 创建时间：2023/5/3  0:17
+import itertools
+from typing import List
+
+
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
         masks=[]
