@@ -19,7 +19,7 @@ class Solution:
         deq.append(root)
         while deq:
             root = deq.popleft()
-            if not root.right:000000000
+            if not root.right:
                 deq.append(root.right)
             if not root.left:
                 deq.append(root.left)
