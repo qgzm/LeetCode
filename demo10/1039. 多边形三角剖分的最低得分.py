@@ -13,4 +13,4 @@ class Solution:
         return f[0][-1]
 
 
-print(Solution().minScoreTriangulation([1,2,3,4,5]))
+print(Solution().minScoreTriangulation([1, 3, 1, 4, 1, 5]))
