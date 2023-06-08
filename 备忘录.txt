@@ -124,9 +124,13 @@ reverse()       逆序
 rotate(n=1)     向右循环移动 n 步。 如果 n 是负数，就向左循环
 maxlen
 
+heapq包  最小堆
+heapq.heapify()
+heapq.heappop()
+heapq.heappush()
 
 
-
+bisect.insort()插入数值
 
 
 
